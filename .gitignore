@@ -81,4 +81,16 @@ datasets/
 tmp/
 temp/
 .tmp/
-.temp/ 
+.temp/
+
+# 追加: mlflowのmlartifacts以下のディレクトリ
+mlflow/mlartifacts/
+
+# 追加: mlflowのmlruns以下のディレクトリ
+mlflow/mlruns/
+
+# 追加: jupyterの.ipynb_checkpoints以下ディレクトリ
+jupyter/.ipynb_checkpoints/
+
+# 追加: jupyterのmlruns以下のディレクトリ
+jupyter/mlruns/ 
