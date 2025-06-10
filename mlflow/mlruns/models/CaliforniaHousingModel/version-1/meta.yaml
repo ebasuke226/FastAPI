@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749517241981
+current_stage: Production
+description: ''
+last_updated_timestamp: 1749518523287
+name: CaliforniaHousingModel
+run_id: 52c7de8276ed4b7b86cff10a2a1621bf
+run_link: ''
+source: mlflow-artifacts:/280657121830558701/52c7de8276ed4b7b86cff10a2a1621bf/artifacts/random_forest_regressor_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/280657121830558701/52c7de8276ed4b7b86cff10a2a1621bf/artifacts/random_forest_regressor_model
+user_id: null
+version: 1

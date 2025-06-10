@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/280657121830558701/b1485b03cfd945e18ad4e42bc43fda5e/artifacts
+end_time: 1749519179524
+entry_point_name: ''
+experiment_id: '280657121830558701'
+lifecycle_stage: active
+run_id: b1485b03cfd945e18ad4e42bc43fda5e
+run_name: luxuriant-grub-230
+run_uuid: b1485b03cfd945e18ad4e42bc43fda5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749519150541
+status: 3
+tags: []
+user_id: jovyan
