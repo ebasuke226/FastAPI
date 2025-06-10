@@ -1,0 +1,41 @@
+{
+  "run_id": "d3bd8b1a876a4b8bbbe38afccfc80ebd",
+  "experiment_id": "673733143152551157",
+  "status": "RUNNING",
+  "start_time": 1749566463594,
+  "end_time": null,
+  "metrics": {
+    "rmse": 0.5066213601812409,
+    "r2_score": 0.8044515355653502,
+    "mae": 0.33245245260791007
+  },
+  "params": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "random_state": 42
+  },
+  "feature_importance": {
+    "feature": {
+      "0": "MedInc",
+      "5": "AveOccup",
+      "6": "Latitude",
+      "7": "Longitude",
+      "1": "HouseAge",
+      "2": "AveRooms",
+      "4": "Population",
+      "3": "AveBedrms"
+    },
+    "importance": {
+      "0": 0.5270330526716127,
+      "5": 0.13799225573407994,
+      "6": 0.08602525193710843,
+      "7": 0.08583143742863492,
+      "1": 0.05459318433728271,
+      "2": 0.04713672096618968,
+      "4": 0.03158033174195211,
+      "3": 0.029807765183139646
+    }
+  }
+}

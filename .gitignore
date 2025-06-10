@@ -33,20 +33,20 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
-profile_default/
-ipython_config.py
+*.ipynb
 
 # MLflow
 mlruns/
 mlflow.db
-mlflow_data/
 
-# Docker
-.docker/
-docker-compose.override.yml
+# Logs
+*.log
 
-# OS
+# Local development settings
+.env
+.env.local
+
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -55,27 +55,12 @@ docker-compose.override.yml
 ehthumbs.db
 Thumbs.db
 
-# Logs
-*.log
-logs/
-log/
+# Project specific
+*.png
 
-# Local development
-.env
-.env.local
-.env.*.local
-
-# Model files and data
-*.pkl
-*.h5
-*.model
-*.joblib
-data/
-datasets/
-*.csv
-*.json
-!package.json
-!tsconfig.json
+# Docker
+.docker/
+docker-compose.override.yml
 
 # Temporary files
 tmp/
